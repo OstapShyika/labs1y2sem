@@ -12,9 +12,9 @@ public record ElectroLamp(String company, int power, int mass, int price) {
 
     public ElectroLamp(final String country, final int guaranntee, final boolean properCondition){
         this("jdhb", 2,2,2);
-        this.country = country;
-        this.guarantee = guaranntee;
-        this.properCondition = properCondition;
+        ElectroLamp.country = country;
+        ElectroLamp.guarantee = guaranntee;
+        ElectroLamp.properCondition = properCondition;
     }
 
     public ElectroLamp(final String company, final int power, final int mass, final int price){
